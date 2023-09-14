@@ -636,9 +636,9 @@ $("#form-section").submit((e)=>{
 		data:$("#form-section").serialize(),
 		method:"post",
 		success:function (response){
-			// alert("Form submitted successfully")
+			alert("Form submitted successfully")
 			window.location.reload()
-			// window.location.href="https://faizsr.github.io/Thanks-page/"
+			
 		},
 		error:function (err){
 			alert("Something Error")
